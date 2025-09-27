@@ -1,0 +1,118 @@
+{
+  "info": {
+    "name": "Log Analyzer API",
+    "_postman_id": "a3f0c7a8-7f7a-4a65-9bb0-collection-local",
+    "description": "Коллекция запросов для проверки Log Analyzer API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Analyze (multipart/form-data)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": [
+                "sample_log.txt"
+              ]
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8000/analyze?top=5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "analyze"
+          ],
+          "query": [
+            {
+              "key": "top",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Analyze (text/plain)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "2025-09-26T13:54:06Z ERROR 192.168.1.12 - User login failed user=eve\n"
+        },
+        "url": {
+          "raw": "http://localhost:8000/analyze",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "analyze"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Analyze (JSON)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"top\": 5, \"log\": \"2025-09-26T13:54:06Z ERROR 192.168.1.12 - User login failed user=eve\\n\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/analyze",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "analyze"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+2025-09-25T19:47:25Z INFO 10.0.0.2 - Cache hit
+2025-09-26T13:54:06Z ERROR 192.168.1.12 - User login failed user=eve
+2025-09-25T10:06:42Z ERROR 10.0.0.2 - Payment processed code=500 amount=99.0
+2025-09-25T10:32:36Z INFO 192.168.1.18 - User login failed user=dave
+2025-09-25T10:09:07Z ERROR 10.0.0.8 - User login failed user=mallory
+93.184.216.34 - - [25/Sep/2025:10:15:32 +0000] "GET /index.html HTTP/1.1" 200 1024 "-" "Mozilla/5.0"
+93.184.216.35 - - [25/Sep/2025:10:16:02 +0000] "POST /api/pay HTTP/1.1" 500 321 "-" "curl/8.6.0"
+93.184.216.34 - - [25/Sep/2025:11:45:10 +0000] "GET /static/app.js HTTP/1.1" 200 2048 "-" "Mozilla/5.0"
+2025-09-26T06:50:38Z ERROR 192.168.1.19 - User login succeeded user=eve
+2025-09-25T22:26:33Z INFO 10.0.0.2 - Payment processed code=201 amount=49.0
+2025-09-25T23:15:37Z INFO 10.0.0.4 - Rate limit exceeded
+2025-09-25T19:13:53Z ERROR 10.0.0.4 - File uploaded
+2025-09-26T04:47:48Z DEBUG 192.168.1.12 - Payment processed code=200 amount=9.99
+2025-09-26T06:32:14Z INFO 192.168.1.18 - DB timeout duration_ms=800
+2025-09-26T00:57:07Z ERROR 192.168.1.12 - DB timeout duration_ms=400
+2025-09-26T12:55:20Z INFO 10.0.0.3 - Payment processed code=402 amount=99.0
+2025-09-26T15:51:46Z INFO 192.168.1.10 - DB timeout duration_ms=250
+2025-09-25T12:17:55Z ERROR 10.0.0.6 - Cache hit
+2025-09-25T13:32:00Z WARN 10.0.0.2 - Cache hit
+2025-09-25T10:49:33Z ERROR 192.168.1.11 - Email sent
+2025-09-26T09:18:53Z INFO 192.168.1.16 - Email sent
+2025-09-26T13:00:50Z WARN 10.0.0.3 - User login failed user=carol
+2025-09-26T01:15:41Z DEBUG 10.0.0.2 - User login failed user=mallory
+2025-09-26T09:32:25Z INFO 192.168.1.15 - Email sent
+2025-09-26T10:05:29Z WARN 10.0.0.1 - Cache miss
+2025-09-25T20:56:31Z INFO 10.0.0.4 - Email sent
+2025-09-25T10:08:47Z INFO 10.0.0.5 - Payment declined code=201 amount=99.0
+2025-09-25T22:14:02Z WARN 10.0.0.6 - User login failed user=dave
+2025-09-25T22:37:24Z ERROR 10.0.0.5 - Payment declined code=402 amount=99.0
+2025-09-26T19:54:58Z INFO 10.0.0.8 - Cache hit
+2025-09-25T11:01:16Z INFO 10.0.0.8 - File uploaded
+2025-09-25T16:29:43Z INFO 192.168.1.19 - DB timeout duration_ms=800
+2025-09-25T18:15:53Z INFO 192.168.1.14 - File uploaded
+2025-09-25T21:26:38Z ERROR 192.168.1.11 - Email sent
+2025-09-26T09:08:24Z ERROR 10.0.0.2 - Email sent
+2025-09-26T16:45:03Z DEBUG 192.168.1.13 - Rate limit exceeded
+2025-09-25T22:31:34Z WARN 192.168.1.16 - User login failed user=mallory
+2025-09-25T22:34:46Z INFO 10.0.0.3 - Payment processed code=500 amount=19.99
+2025-09-25T12:00:08Z INFO 10.0.0.2 - Email sent
+2025-09-25T08:00:30Z ERROR 192.168.1.18 - File uploaded
+2025-09-26T18:33:00Z INFO 10.0.0.1 - Email sent
+2025-09-26T15:50:00Z INFO 192.168.1.13 - Email sent
+2025-09-26T07:05:53Z INFO 192.168.1.12 - Cache miss
+2025-09-25T12:28:21Z INFO 192.168.1.15 - DB timeout duration_ms=1300
+2025-09-25T19:21:15Z INFO 10.0.0.4 - File uploaded
+2025-09-25T20:28:29Z DEBUG 192.168.1.16 - Payment declined code=201 amount=9.99
+2025-09-25T15:28:17Z ERROR 10.0.0.5 - Cache miss
+2025-09-26T03:46:34Z INFO 192.168.1.10 - Rate limit exceeded
+2025-09-26T15:25:57Z INFO 192.168.1.17 - Payment declined code=201 amount=49.0
+2025-09-26T12:06:19Z INFO 192.168.1.18 - Rate limit exceeded
+2025-09-25T20:00:09Z DEBUG 10.0.0.7 - Payment processed code=500 amount=19.99
+2025-09-25T15:16:43Z ERROR 192.168.1.12 - DB timeout duration_ms=250
+2025-09-25T09:01:01Z INFO 10.0.0.9 - DB timeout duration_ms=2200
+2025-09-26T18:49:32Z INFO 192.168.1.12 - DB timeout duration_ms=250
+2025-09-25T16:01:36Z INFO 192.168.1.16 - Payment processed code=402 amount=19.99
+2025-09-26T01:34:22Z ERROR 10.0.0.1 - Email sent
+2025-09-26T17:06:10Z DEBUG 10.0.0.3 - Cache miss
+2025-09-25T12:21:56Z WARN 192.168.1.16 - Payment processed code=500 amount=49.0
+2025-09-25T11:09:30Z DEBUG 192.168.1.15 - Cache hit
+2025-09-26T11:03:52Z INFO 10.0.0.6 - File uploaded
+2025-09-25T09:00:10Z INFO 192.168.1.15 - Email sent
+2025-09-25T13:19:19Z ERROR 192.168.1.16 - Email sent
+2025-09-26T18:07:55Z INFO 192.168.1.18 - File uploaded
+2025-09-25T12:46:08Z INFO 10.0.0.4 - User login succeeded user=eve
+2025-09-26T11:17:17Z INFO 10.0.0.7 - Cache hit
+2025-09-25T09:01:09Z INFO 192.168.1.10 - Payment processed code=201 amount=49.0
+2025-09-25T17:26:35Z ERROR 10.0.0.5 - Cache hit
+2025-09-26T17:07:57Z DEBUG 192.168.1.15 - Cache miss
+2025-09-26T05:14:20Z ERROR 192.168.1.17 - Cache hit
+2025-09-26T03:21:47Z INFO 192.168.1.17 - Rate limit exceeded
+2025-09-26T15:46:40Z WARN 10.0.0.1 - File uploaded
+2025-09-25T14:16:29Z INFO 10.0.0.4 - DB timeout duration_ms=250
+2025-09-25T19:52:07Z DEBUG 192.168.1.17 - Rate limit exceeded
+2025-09-26T01:34:00Z INFO 10.0.0.2 - Rate limit exceeded
+2025-09-25T14:57:54Z INFO 10.0.0.4 - User login succeeded user=eve
+2025-09-26T00:27:47Z ERROR 10.0.0.3 - User login succeeded user=dave
+2025-09-25T19:51:18Z ERROR 192.168.1.17 - Rate limit exceeded
+2025-09-26T09:13:17Z INFO 192.168.1.17 - DB timeout duration_ms=1300
+2025-09-26T02:29:12Z INFO 10.0.0.9 - Rate limit exceeded
+2025-09-26T16:30:15Z INFO 10.0.0.5 - DB timeout duration_ms=250
+2025-09-25T22:17:07Z WARN 10.0.0.3 - Cache miss
+2025-09-25T16:45:41Z WARN 10.0.0.7 - User login failed user=mallory
+2025-09-25T19:01:25Z INFO 192.168.1.12 - File uploaded
+2025-09-25T17:12:55Z INFO 10.0.0.8 - DB timeout duration_ms=250
+2025-09-25T22:30:00Z WARN 10.0.0.8 - File uploaded
+2025-09-26T09:42:59Z WARN 192.168.1.13 - Rate limit exceeded
+2025-09-25T23:20:17Z INFO 192.168.1.11 - Cache miss
+2025-09-26T10:17:33Z INFO 192.168.1.11 - User login succeeded user=eve
+2025-09-26T00:41:58Z WARN 192.168.1.13 - User login succeeded user=carol
+2025-09-26T02:50:21Z ERROR 192.168.1.17 - Payment declined code=200 amount=19.99
+2025-09-26T19:22:42Z INFO 10.0.0.9 - User login failed user=carol
+2025-09-25T09:26:28Z INFO 10.0.0.5 - Payment declined code=402 amount=99.0
+2025-09-25T13:26:17Z ERROR 192.168.1.19 - Rate limit exceeded
+2025-09-26T09:30:05Z INFO 10.0.0.9 - User login failed user=alice
+2025-09-26T13:06:43Z DEBUG 192.168.1.14 - File uploaded
+2025-09-25T17:47:28Z INFO 10.0.0.9 - User login failed user=alice
+2025-09-26T06:08:35Z INFO 10.0.0.9 - User login failed user=alice
+2025-09-26T00:31:17Z INFO 192.168.1.18 - Cache miss
+2025-09-26T17:44:20Z INFO 10.0.0.5 - Email sent
+2025-09-26T03:11:03Z DEBUG 10.0.0.4 - Payment processed code=402 amount=9.99
+2025-09-25T14:35:43Z INFO 192.168.1.10 - Payment declined code=201 amount=49.0
+2025-09-26T00:13:37Z ERROR 10.0.0.9 - File uploaded
+2025-09-26T13:15:39Z INFO 10.0.0.2 - Payment declined code=200 amount=19.99
+2025-09-26T02:43:21Z WARN 192.168.1.15 - Payment processed code=500 amount=99.0
+2025-09-26T03:52:33Z WARN 192.168.1.10 - Rate limit exceeded
+2025-09-25T15:50:04Z INFO 10.0.0.7 - Cache miss
+2025-09-26T10:32:11Z DEBUG 192.168.1.13 - File uploaded
+2025-09-26T19:44:57Z INFO 10.0.0.1 - File uploaded
+2025-09-26T06:46:18Z DEBUG 192.168.1.14 - Payment declined code=200 amount=9.99
+2025-09-26T08:13:12Z WARN 192.168.1.10 - Rate limit exceeded
+2025-09-25T16:49:07Z DEBUG 10.0.0.2 - Payment declined code=201 amount=19.99
+2025-09-25T17:47:43Z WARN 10.0.0.9 - User login succeeded user=carol
+2025-09-26T19:01:03Z INFO 192.168.1.11 - Rate limit exceeded
+2025-09-25T09:15:15Z INFO 192.168.1.12 - Payment processed code=200 amount=49.0
+2025-09-25T21:53:40Z INFO 10.0.0.9 - DB timeout duration_ms=400
+2025-09-25T17:02:09Z ERROR 10.0.0.3 - User login succeeded user=carol
+2025-09-26T13:44:51Z INFO 192.168.1.13 - File uploaded
+2025-09-25T09:31:01Z WARN 192.168.1.10 - User login succeeded user=carol
+2025-09-26T06:55:32Z INFO 192.168.1.19 - User login failed user=eve
+2025-09-26T15:03:56Z INFO 192.168.1.13 - Email sent
+2025-09-26T10:14:20Z WARN 192.168.1.10 - File uploaded
+2025-09-26T06:31:35Z DEBUG 10.0.0.2 - File uploaded
+2025-09-26T16:28:28Z ERROR 192.168.1.17 - Cache hit
+2025-09-26T17:07:40Z ERROR 192.168.1.19 - Rate limit exceeded
+2025-09-26T14:05:19Z DEBUG 10.0.0.8 - Email sent
+2025-09-25T09:08:04Z INFO 192.168.1.12 - File uploaded
+2025-09-25T21:42:44Z WARN 10.0.0.2 - Rate limit exceeded
+2025-09-25T08:41:09Z DEBUG 10.0.0.8 - Rate limit exceeded
+2025-09-25T17:36:15Z INFO 10.0.0.3 - DB timeout duration_ms=2200
+2025-09-26T16:41:23Z ERROR 192.168.1.17 - User login failed user=alice
+2025-09-26T11:09:04Z DEBUG 10.0.0.9 - DB timeout duration_ms=800
+2025-09-25T16:32:53Z DEBUG 10.0.0.8 - Payment processed code=500 amount=99.0
+2025-09-26T14:47:05Z WARN 192.168.1.16 - User login failed user=mallory
+2025-09-25T18:27:39Z INFO 10.0.0.7 - Email sent
+2025-09-26T05:50:04Z INFO 10.0.0.9 - Cache miss
+2025-09-26T11:03:34Z DEBUG 192.168.1.19 - Payment declined code=200 amount=99.0
+2025-09-25T10:12:30Z WARN 10.0.0.4 - Payment declined code=201 amount=99.0
+2025-09-25T18:35:23Z DEBUG 192.168.1.10 - Rate limit exceeded
+2025-09-26T00:57:46Z WARN 192.168.1.18 - User login failed user=bob
+2025-09-25T19:20:51Z INFO 10.0.0.1 - DB timeout duration_ms=1300
+2025-09-25T10:47:02Z ERROR 10.0.0.9 - DB timeout duration_ms=400
+2025-09-26T17:22:14Z INFO 192.168.1.19 - User login failed user=alice
+2025-09-25T13:09:38Z DEBUG 10.0.0.9 - Rate limit exceeded
+2025-09-25T12:49:40Z ERROR 10.0.0.9 - Rate limit exceeded
+2025-09-26T09:36:27Z INFO 192.168.1.16 - Payment processed code=500 amount=9.99
+2025-09-25T13:47:29Z INFO 192.168.1.15 - DB timeout duration_ms=800
+2025-09-26T10:28:33Z INFO 192.168.1.12 - Cache hit
+2025-09-25T19:30:28Z INFO 10.0.0.1 - Cache miss
+2025-09-26T11:20:00Z INFO 10.0.0.4 - Cache hit
+2025-09-26T09:57:37Z INFO 10.0.0.9 - Payment declined code=200 amount=99.0
+2025-09-25T22:12:19Z ERROR 192.168.1.12 - User login failed user=dave
+2025-09-26T11:30:45Z INFO 10.0.0.9 - User login succeeded user=alice
+2025-09-25T09:52:45Z DEBUG 10.0.0.5 - Payment declined code=402 amount=99.0
+2025-09-26T02:36:12Z INFO 192.168.1.12 - Payment processed code=200 amount=99.0
+2025-09-26T17:15:24Z ERROR 10.0.0.7 - Rate limit exceeded
+2025-09-25T10:56:01Z INFO 192.168.1.15 - Cache hit
+2025-09-26T11:24:13Z INFO 192.168.1.16 - Payment declined code=201 amount=19.99
+2025-09-26T01:11:30Z WARN 192.168.1.10 - Cache miss
+2025-09-25T17:18:40Z DEBUG 192.168.1.13 - Payment declined code=201 amount=49.0
+2025-09-26T01:35:31Z ERROR 10.0.0.4 - Cache hit
+2025-09-26T07:25:06Z INFO 10.0.0.7 - User login failed user=eve
+2025-09-26T16:59:05Z WARN 10.0.0.8 - Rate limit exceeded
+2025-09-26T16:59:45Z INFO 192.168.1.14 - DB timeout duration_ms=2200
+2025-09-25T15:00:19Z INFO 10.0.0.6 - User login failed user=carol
+2025-09-26T04:14:19Z INFO 10.0.0.8 - Cache miss
+2025-09-25T17:24:23Z ERROR 10.0.0.1 - Payment processed code=500 amount=99.0
+2025-09-25T23:04:08Z DEBUG 10.0.0.7 - Rate limit exceeded
+2025-09-25T17:50:20Z INFO 192.168.1.16 - User login succeeded user=carol
+2025-09-26T04:54:32Z INFO 192.168.1.17 - File uploaded
+2025-09-26T06:55:26Z INFO 10.0.0.9 - User login failed user=bob
+2025-09-25T22:00:05Z WARN 192.168.1.14 - DB timeout duration_ms=250
+2025-09-25T12:37:58Z INFO 192.168.1.16 - Cache hit
+2025-09-26T01:50:02Z INFO 192.168.1.13 - User login failed user=eve
+2025-09-26T15:08:47Z WARN 10.0.0.8 - DB timeout duration_ms=400
+2025-09-25T13:37:14Z INFO 10.0.0.4 - Rate limit exceeded
+2025-09-26T09:31:21Z DEBUG 10.0.0.3 - DB timeout duration_ms=250
+2025-09-25T08:02:59Z INFO 192.168.1.19 - Payment processed code=402 amount=19.99
+2025-09-26T06:48:33Z INFO 192.168.1.14 - Rate limit exceeded
+2025-09-26T11:48:38Z INFO 10.0.0.3 - User login failed user=carol
+2025-09-26T03:05:38Z ERROR 192.168.1.13 - Payment processed code=201 amount=9.99
+2025-09-25T08:22:51Z ERROR 192.168.1.15 - Payment declined code=402 amount=19.99
+2025-09-26T01:18:19Z ERROR 192.168.1.18 - Payment processed code=200 amount=99.0
+2025-09-26T09:39:20Z DEBUG 10.0.0.2 - Payment declined code=201 amount=99.0
+2025-09-26T16:12:58Z DEBUG 10.0.0.3 - Cache hit
+2025-09-25T16:17:43Z DEBUG 192.168.1.12 - Cache hit
+2025-09-26T01:56:51Z INFO 192.168.1.14 - Cache miss
+2025-09-26T08:51:05Z WARN 10.0.0.1 - Payment processed code=200 amount=19.99
+2025-09-26T02:02:51Z INFO 10.0.0.7 - Payment declined code=500 amount=19.99
+2025-09-25T17:38:56Z INFO 192.168.1.16 - User login failed user=eve
+2025-09-25T14:49:11Z INFO 192.168.1.14 - DB timeout duration_ms=250
+2025-09-26T18:32:36Z ERROR 192.168.1.13 - File uploaded
+2025-09-25T15:45:11Z INFO 10.0.0.5 - Email sent
+2025-09-25T09:53:14Z DEBUG 10.0.0.6 - User login succeeded user=dave
+2025-09-26T00:22:15Z DEBUG 10.0.0.4 - Cache miss
+2025-09-26T17:55:06Z INFO 10.0.0.7 - Cache miss
+2025-09-26T07:45:20Z ERROR 10.0.0.2 - DB timeout duration_ms=1300
+2025-09-26T14:33:06Z INFO 192.168.1.15 - Cache miss
+2025-09-25T11:58:01Z INFO 10.0.0.9 - User login failed user=alice
+2025-09-25T20:47:47Z WARN 192.168.1.18 - User login failed user=bob
+2025-09-25T21:50:24Z INFO 192.168.1.14 - Payment declined code=200 amount=99.0
+2025-09-25T15:07:32Z INFO 192.168.1.15 - Rate limit exceeded
+2025-09-25T19:46:16Z INFO 10.0.0.1 - DB timeout duration_ms=1300
+2025-09-25T17:01:47Z DEBUG 10.0.0.2 - Cache hit
+2025-09-25T09:16:08Z WARN 10.0.0.2 - User login failed user=carol
+2025-09-25T15:05:51Z DEBUG 192.168.1.11 - User login failed user=carol
+2025-09-25T17:54:52Z INFO 10.0.0.2 - Email sent
+2025-09-26T11:10:37Z DEBUG 10.0.0.9 - Cache miss
+2025-09-25T08:08:14Z DEBUG 10.0.0.3 - Email sent
+2025-09-26T14:04:27Z INFO 192.168.1.16 - User login failed user=mallory
+2025-09-26T18:50:06Z WARN 10.0.0.9 - Cache hit
+2025-09-26T13:39:57Z WARN 192.168.1.16 - File uploaded
+2025-09-25T08:19:01Z DEBUG 10.0.0.5 - Payment declined code=201 amount=49.0
+2025-09-26T15:21:24Z INFO 192.168.1.12 - DB timeout duration_ms=250
+2025-09-26T02:38:13Z INFO 10.0.0.6 - Cache hit
+2025-09-25T22:50:45Z INFO 192.168.1.16 - User login succeeded user=eve
+2025-09-26T03:49:43Z INFO 192.168.1.14 - File uploaded
+2025-09-26T19:57:56Z INFO 10.0.0.3 - Payment declined code=200 amount=99.0
+2025-09-26T02:08:56Z DEBUG 10.0.0.6 - DB timeout duration_ms=400
+2025-09-25T23:10:36Z WARN 10.0.0.8 - Email sent
+2025-09-26T03:36:30Z DEBUG 192.168.1.10 - User login failed user=carol
+2025-09-25T18:10:21Z ERROR 192.168.1.12 - Payment declined code=402 amount=19.99
+2025-09-25T23:59:52Z INFO 10.0.0.8 - File uploaded
+2025-09-25T13:34:56Z INFO 10.0.0.7 - Email sent
+2025-09-25T10:21:34Z WARN 10.0.0.8 - Payment declined code=201 amount=9.99
+2025-09-26T07:47:12Z WARN 10.0.0.4 - User login succeeded user=alice
+2025-09-26T01:17:08Z INFO 192.168.1.12 - DB timeout duration_ms=800
+2025-09-25T16:28:45Z INFO 10.0.0.7 - User login succeeded user=eve
+2025-09-26T19:25:28Z ERROR 10.0.0.3 - Payment processed code=201 amount=99.0
+2025-09-26T05:57:21Z INFO 10.0.0.4 - User login succeeded user=mallory
+2025-09-26T05:42:18Z DEBUG 192.168.1.12 - Email sent
+2025-09-25T09:21:49Z INFO 10.0.0.5 - Cache miss
+2025-09-25T15:25:35Z INFO 10.0.0.7 - User login succeeded user=alice
+2025-09-26T13:48:46Z INFO 192.168.1.12 - Cache hit
+2025-09-26T06:36:37Z INFO 10.0.0.7 - User login failed user=alice
+2025-09-26T12:57:19Z WARN 192.168.1.16 - Rate limit exceeded
+2025-09-25T22:51:39Z INFO 192.168.1.18 - Cache hit
+2025-09-26T07:16:18Z ERROR 10.0.0.6 - User login failed user=dave
+2025-09-26T09:19:08Z INFO 192.168.1.10 - Cache hit
+2025-09-25T19:11:57Z WARN 192.168.1.10 - User login succeeded user=mallory
+2025-09-26T04:37:34Z INFO 192.168.1.14 - Cache hit
+2025-09-26T15:27:58Z INFO 192.168.1.13 - Payment processed code=500 amount=19.99
+2025-09-26T18:17:48Z INFO 10.0.0.6 - Cache hit
+2025-09-25T12:08:01Z INFO 192.168.1.19 - Cache hit
+2025-09-26T00:46:51Z INFO 10.0.0.1 - File uploaded
+2025-09-26T04:04:52Z INFO 10.0.0.3 - Cache hit
+2025-09-26T06:39:12Z INFO 10.0.0.6 - Rate limit exceeded
+2025-09-25T20:40:05Z INFO 192.168.1.17 - File uploaded
+2025-09-26T17:41:47Z INFO 192.168.1.13 - User login failed user=dave
+2025-09-26T11:26:10Z INFO 10.0.0.5 - Payment declined code=500 amount=49.0
+2025-09-25T09:56:35Z ERROR 10.0.0.3 - Cache hit
+2025-09-26T06:35:09Z DEBUG 10.0.0.8 - File uploaded
+2025-09-25T22:43:36Z ERROR 192.168.1.16 - Payment processed code=201 amount=9.99
+2025-09-25T22:33:15Z ERROR 192.168.1.13 - File uploaded
+2025-09-25T12:28:49Z INFO 10.0.0.7 - Payment processed code=200 amount=49.0
+2025-09-25T12:17:11Z WARN 192.168.1.15 - Email sent
+2025-09-26T14:54:41Z DEBUG 192.168.1.14 - Payment declined code=201 amount=99.0
+2025-09-25T22:10:14Z DEBUG 192.168.1.15 - Cache miss
+2025-09-25T23:57:35Z INFO 10.0.0.1 - User login succeeded user=eve
+2025-09-26T19:54:15Z WARN 10.0.0.8 - DB timeout duration_ms=2200
+2025-09-26T12:23:52Z WARN 192.168.1.16 - File uploaded
+2025-09-25T11:53:54Z INFO 192.168.1.12 - File uploaded
+2025-09-25T21:18:04Z INFO 192.168.1.17 - DB timeout duration_ms=250
+2025-09-25T09:28:48Z DEBUG 10.0.0.3 - File uploaded
+2025-09-25T19:25:20Z DEBUG 10.0.0.3 - Rate limit exceeded
+2025-09-26T11:22:53Z ERROR 10.0.0.5 - Cache hit
+2025-09-26T15:12:17Z INFO 10.0.0.4 - Email sent
+2025-09-25T12:47:31Z WARN 10.0.0.6 - Payment declined code=201 amount=9.99
+2025-09-26T14:19:47Z INFO 10.0.0.9 - Email sent
+2025-09-25T19:47:26Z ERROR 192.168.1.15 - Payment declined code=402 amount=99.0
+2025-09-25T15:35:05Z ERROR 192.168.1.17 - Payment declined code=402 amount=49.0
+2025-09-25T09:20:27Z INFO 192.168.1.13 - File uploaded
+2025-09-26T07:10:36Z INFO 192.168.1.13 - Cache miss
+2025-09-26T12:50:25Z INFO 192.168.1.17 - User login failed user=alice
+2025-09-26T07:10:03Z INFO 192.168.1.18 - DB timeout duration_ms=2200
+2025-09-26T09:04:33Z INFO 192.168.1.18 - Payment declined code=500 amount=49.0
+2025-09-25T17:38:21Z WARN 192.168.1.19 - Cache miss
+2025-09-25T21:06:58Z INFO 192.168.1.15 - User login failed user=bob
+2025-09-25T14:26:07Z ERROR 192.168.1.10 - User login succeeded user=eve
+2025-09-25T17:14:06Z INFO 192.168.1.11 - Email sent
+2025-09-25T08:03:54Z DEBUG 10.0.0.8 - User login succeeded user=bob
+2025-09-25T18:35:38Z ERROR 192.168.1.14 - Cache hit
+2025-09-25T21:15:23Z INFO 192.168.1.16 - File uploaded
+2025-09-26T06:18:04Z DEBUG 10.0.0.1 - User login succeeded user=alice
+2025-09-25T08:05:42Z ERROR 192.168.1.10 - Cache miss
+2025-09-26T03:02:42Z INFO 10.0.0.8 - Rate limit exceeded
+2025-09-26T05:14:52Z INFO 10.0.0.5 - Email sent
+2025-09-25T21:20:03Z ERROR 10.0.0.6 - DB timeout duration_ms=250
+2025-09-26T18:06:00Z INFO 192.168.1.15 - File uploaded
+2025-09-25T10:19:05Z DEBUG 10.0.0.9 - File uploaded
+2025-09-26T13:32:54Z INFO 10.0.0.2 - User login succeeded user=mallory
+2025-09-26T13:53:14Z ERROR 192.168.1.19 - Cache miss
+2025-09-26T05:54:49Z ERROR 10.0.0.8 - DB timeout duration_ms=250
+2025-09-25T09:36:07Z INFO 10.0.0.1 - Rate limit exceeded
+2025-09-25T14:45:34Z INFO 10.0.0.2 - File uploaded
+2025-09-25T08:26:58Z ERROR 10.0.0.7 - Rate limit exceeded
+2025-09-25T23:02:36Z INFO 192.168.1.17 - Rate limit exceeded
+2025-09-26T07:21:31Z WARN 10.0.0.6 - Email sent
+2025-09-25T19:15:51Z INFO 10.0.0.2 - Payment declined code=500 amount=9.99
+2025-09-25T21:39:32Z WARN 10.0.0.3 - DB timeout duration_ms=1300
+2025-09-25T14:23:08Z INFO 10.0.0.9 - User login failed user=bob
+2025-09-26T07:26:52Z INFO 192.168.1.11 - User login failed user=mallory
+2025-09-26T17:41:04Z DEBUG 10.0.0.2 - Payment declined code=500 amount=49.0
+2025-09-25T18:45:47Z DEBUG 10.0.0.3 - Payment processed code=200 amount=19.99
+2025-09-25T17:28:47Z INFO 10.0.0.6 - Payment processed code=402 amount=19.99
+2025-09-26T16:02:44Z WARN 10.0.0.8 - Cache miss
+2025-09-26T17:02:36Z DEBUG 192.168.1.16 - Rate limit exceeded
+2025-09-26T14:34:22Z ERROR 10.0.0.1 - User login succeeded user=dave
+2025-09-26T18:47:45Z DEBUG 192.168.1.19 - Payment processed code=201 amount=99.0
+2025-09-26T06:40:08Z ERROR 192.168.1.19 - User login failed user=bob
+2025-09-25T13:15:52Z INFO 10.0.0.4 - User login succeeded user=alice
+2025-09-26T06:38:42Z INFO 10.0.0.5 - Cache miss
+2025-09-25T09:02:46Z INFO 10.0.0.5 - User login succeeded user=mallory
+2025-09-26T07:25:50Z DEBUG 10.0.0.3 - User login succeeded user=mallory
+2025-09-25T09:41:59Z INFO 192.168.1.12 - Email sent
+2025-09-26T13:45:59Z ERROR 192.168.1.13 - User login failed user=alice
+2025-09-25T16:58:39Z INFO 10.0.0.4 - Payment processed code=200 amount=9.99
+2025-09-26T14:02:22Z DEBUG 192.168.1.16 - Payment declined code=201 amount=9.99
+2025-09-26T12:50:04Z DEBUG 192.168.1.10 - Payment processed code=402 amount=99.0
+2025-09-25T17:30:30Z INFO 10.0.0.9 - Cache miss
+2025-09-25T09:45:44Z DEBUG 192.168.1.11 - Cache miss
+2025-09-26T02:20:25Z WARN 10.0.0.1 - Payment declined code=200 amount=99.0
+2025-09-26T02:52:56Z INFO 192.168.1.16 - Cache miss
+2025-09-25T09:45:06Z ERROR 10.0.0.7 - Email sent
+2025-09-26T15:23:35Z INFO 192.168.1.10 - Email sent
+2025-09-25T23:52:34Z INFO 10.0.0.7 - Rate limit exceeded
+2025-09-26T11:45:00Z INFO 192.168.1.12 - User login succeeded user=dave
+2025-09-25T11:29:02Z WARN 192.168.1.16 - File uploaded
+2025-09-25T20:38:26Z ERROR 192.168.1.19 - Payment declined code=402 amount=19.99
+2025-09-26T18:09:43Z DEBUG 192.168.1.16 - Payment processed code=200 amount=9.99
+2025-09-26T01:51:03Z DEBUG 10.0.0.4 - Rate limit exceeded
+2025-09-25T19:53:33Z INFO 192.168.1.13 - User login failed user=dave
+2025-09-26T16:28:15Z DEBUG 192.168.1.14 - User login failed user=mallory
+2025-09-25T08:54:59Z INFO 192.168.1.10 - Payment processed code=500 amount=19.99
+2025-09-25T21:48:36Z DEBUG 192.168.1.15 - Payment processed code=200 amount=49.0
+2025-09-26T05:10:28Z INFO 10.0.0.5 - Rate limit exceeded
+2025-09-26T08:06:22Z ERROR 10.0.0.6 - Cache miss
+2025-09-25T23:58:34Z DEBUG 192.168.1.19 - Payment declined code=201 amount=49.0
+2025-09-26T00:49:17Z DEBUG 192.168.1.17 - Payment processed code=402 amount=49.0
+2025-09-26T11:28:44Z DEBUG 10.0.0.5 - Email sent
+2025-09-25T13:40:45Z INFO 192.168.1.17 - Cache miss
+2025-09-25T13:51:32Z INFO 10.0.0.7 - Cache miss
+2025-09-26T19:30:14Z DEBUG 10.0.0.6 - User login failed user=mallory
+2025-09-25T11:42:01Z INFO 10.0.0.5 - Cache hit
+2025-09-26T12:56:27Z INFO 192.168.1.14 - Payment declined code=201 amount=9.99
+2025-09-26T07:13:41Z INFO 10.0.0.7 - Payment declined code=500 amount=9.99
+2025-09-25T08:27:33Z WARN 10.0.0.8 - Cache hit
+2025-09-26T19:42:46Z DEBUG 192.168.1.15 - Payment declined code=201 amount=49.0
+2025-09-26T05:58:49Z DEBUG 10.0.0.1 - Cache hit
+2025-09-25T16:49:16Z WARN 192.168.1.19 - Email sent
+2025-09-26T07:33:49Z WARN 192.168.1.19 - Payment processed code=201 amount=9.99
+2025-09-26T00:31:33Z WARN 10.0.0.9 - Cache miss
+2025-09-26T09:30:35Z INFO 10.0.0.8 - Cache hit
+2025-09-26T09:57:54Z DEBUG 10.0.0.9 - File uploaded
+2025-09-26T01:34:34Z WARN 192.168.1.14 - User login succeeded user=eve
+2025-09-26T08:35:05Z DEBUG 192.168.1.11 - File uploaded
+2025-09-25T22:09:08Z WARN 10.0.0.2 - User login failed user=carol
+2025-09-26T03:46:59Z INFO 10.0.0.7 - File uploaded
+2025-09-25T20:40:40Z INFO 192.168.1.15 - Email sent
+2025-09-25T15:27:47Z DEBUG 192.168.1.17 - DB timeout duration_ms=800
+2025-09-26T02:59:38Z INFO 192.168.1.15 - Cache hit
+2025-09-26T08:55:00Z INFO 192.168.1.17 - Cache hit
+2025-09-26T10:32:45Z ERROR 10.0.0.2 - Cache miss
+2025-09-25T17:59:20Z WARN 10.0.0.2 - Cache hit
+2025-09-25T10:44:14Z WARN 192.168.1.12 - Cache hit
+2025-09-25T17:39:14Z INFO 192.168.1.10 - Payment processed code=500 amount=19.99
+2025-09-26T13:10:52Z WARN 10.0.0.7 - DB timeout duration_ms=400
+2025-09-26T17:50:20Z INFO 192.168.1.16 - Payment processed code=201 amount=19.99
+2025-09-25T20:51:25Z DEBUG 192.168.1.15 - Cache hit
+2025-09-26T11:40:00Z ERROR 192.168.1.16 - File uploaded
+2025-09-26T12:31:47Z INFO 192.168.1.13 - Payment declined code=402 amount=99.0
+2025-09-26T08:42:54Z INFO 10.0.0.1 - DB timeout duration_ms=800
+2025-09-25T21:02:00Z INFO 192.168.1.11 - Payment declined code=500 amount=99.0
+2025-09-26T06:41:45Z DEBUG 192.168.1.12 - User login failed user=bob
+2025-09-26T17:48:50Z INFO 10.0.0.2 - Cache hit
+2025-09-26T14:08:34Z ERROR 10.0.0.5 - Cache miss
+2025-09-26T14:16:03Z INFO 10.0.0.1 - Email sent
+2025-09-25T08:25:04Z INFO 192.168.1.10 - User login failed user=carol
+2025-09-26T06:08:38Z INFO 10.0.0.5 - Email sent
+2025-09-25T14:45:35Z WARN 10.0.0.5 - Cache miss
+2025-09-26T16:55:00Z WARN 10.0.0.6 - Rate limit exceeded
+2025-09-26T16:26:42Z DEBUG 10.0.0.3 - Email sent
+2025-09-26T16:49:40Z ERROR 10.0.0.7 - Payment declined code=201 amount=9.99
+2025-09-26T11:00:43Z WARN 192.168.1.18 - User login failed user=alice
+2025-09-25T17:37:47Z WARN 10.0.0.5 - Payment processed code=500 amount=9.99
+2025-09-26T01:38:07Z WARN 192.168.1.16 - File uploaded
+2025-09-26T02:08:16Z INFO 10.0.0.1 - Rate limit exceeded
+2025-09-26T14:36:41Z INFO 192.168.1.19 - DB timeout duration_ms=800
+2025-09-26T14:36:14Z WARN 192.168.1.14 - Cache miss
+2025-09-26T18:58:29Z DEBUG 10.0.0.6 - User login failed user=mallory
+2025-09-25T21:07:15Z DEBUG 10.0.0.1 - User login succeeded user=eve
+2025-09-25T09:40:12Z DEBUG 10.0.0.4 - Cache miss
+2025-09-26T01:37:41Z WARN 10.0.0.2 - File uploaded
+2025-09-26T10:08:53Z WARN 192.168.1.11 - File uploaded
+2025-09-26T15:22:23Z DEBUG 192.168.1.11 - Cache miss
+2025-09-26T12:20:42Z ERROR 10.0.0.7 - Rate limit exceeded
+2025-09-25T23:50:41Z INFO 10.0.0.9 - Cache hit
+2025-09-25T09:55:10Z INFO 192.168.1.12 - Payment declined code=500 amount=49.0
+2025-09-26T02:20:27Z INFO 192.168.1.12 - Rate limit exceeded
+2025-09-26T07:49:54Z WARN 192.168.1.11 - User login failed user=bob
+2025-09-25T19:32:42Z DEBUG 10.0.0.5 - Payment declined code=200 amount=9.99
+2025-09-25T22:31:21Z DEBUG 192.168.1.13 - Rate limit exceeded
+2025-09-26T04:54:01Z INFO 192.168.1.10 - Cache hit
+2025-09-25T08:13:34Z INFO 192.168.1.16 - Payment processed code=200 amount=99.0
